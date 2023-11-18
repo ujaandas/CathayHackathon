@@ -7,7 +7,7 @@ class FlightInfo:
         self.flight_number = flight_number
         self.departure_time = datetime.strptime(departure_time, "%Y-%m-%d").date()
         self.arrival_time = datetime.strptime(arrival_time, "%Y-%m-%d").date()
-        self.via_airports = via_airports.split("/")[:-1]
+        self.via_airports = via_airports[:-1]
         self.calculate_duration()
 
     # Calculate duration of flight

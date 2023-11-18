@@ -1,0 +1,118 @@
+ID,Country,Code,Fruit,Season
+0,Japan,NRT,Yuzu,Winter
+1,Japan,NRT,Persimmon,Autumn
+2,Japan,NRT,Sakura Cherry,Spring
+3,South Korea,ICN,Ginseng,All Year
+4,South Korea,ICN,Korean Pear,Autumn
+5,South Korea,ICN,Mandarin Orange,Winter
+6,Japan,KIX,Kyoho Grapes,Summer
+7,Japan,KIX,Mikan,Winter
+8,Japan,KIX,Nashi Pear,Autumn
+54,Japan,KIX,Persimmon,Autumn
+55,Japan,KIX,Yuzu,Winter
+56,Japan,KIX,Sakura Cherry,Spring
+9,Taiwan,TPE,Dragon Fruit,Summer
+10,Taiwan,TPE,Lychee,Summer
+11,Taiwan,TPE,Papaya,All Year
+57,Taiwan,TPE,Pineapple,All Year
+58,Taiwan,TPE,Guava,Summer
+59,Taiwan,TPE,Mango,Summer
+12,China,PVG,Longan,Summer
+13,China,PVG,Star Fruit,Summer
+14,China,PVG,Mango,Summer
+60,China,PVG,Lychee,Summer
+61,China,PVG,Dragon Fruit,Summer
+62,China,PVG,Longan,Summer
+15,Philippines,MNL,Mango,Summer
+16,Philippines,MNL,Banana,All Year
+17,Philippines,MNL,Coconut,All Year
+63,Philippines,MNL,Mango,Summer
+64,Philippines,MNL,Banana,All Year
+65,Philippines,MNL,Coconut,All Year
+18,China,PEK,Lychee,Summer
+19,China,PEK,Hawthorn,Autumn
+20,China,PEK,Peach,Summer
+66,China,PEK,Apple,Autumn
+67,China,PEK,Pear,Autumn
+68,China,PEK,Jujube,Autumn
+21,Singapore,SIN,Durian,Summer
+22,Singapore,SIN,Rambutan,Summer
+23,Singapore,SIN,Mangosteen,Summer
+69,Singapore,SIN,Durian,Summer
+70,Singapore,SIN,Mangosteen,Summer
+71,Singapore,SIN,Rambutan,Summer
+24,Thailand,BKK,Mangosteen,Summer
+25,Thailand,BKK,Pomelo,Winter
+26,Thailand,BKK,Dragon Fruit,Summer
+72,Thailand,BKK,Mango,Summer
+73,Thailand,BKK,Durian,Summer
+74,Thailand,BKK,Pomelo,Winter
+27,India,DEL,Mango,Summer
+28,India,DEL,Guava,All Year
+29,India,DEL,Pomegranate,Autumn
+75,India,DEL,Mango,Summer
+76,India,DEL,Guava,Summer
+77,India,DEL,Pomegranate,Autumn
+30,United States,JFK,Apple,Autumn
+31,United States,JFK,Blueberries,Summer
+32,United States,JFK,Cranberries,Autumn
+78,United States,JFK,Apple,Autumn
+79,United States,JFK,Blueberry,Summer
+80,United States,JFK,Cranberry,Autumn
+81,United States,LAX,Strawberry,Spring
+82,United States,LAX,Avocado,Summer
+83,United States,LAX,Lemon,All Year
+84,United Kingdom,LHR,Apple,Autumn
+85,United Kingdom,LHR,Blackberry,Summer
+86,United Kingdom,LHR,Raspberry,Summer
+87,Malaysia,PEN,Durian,Summer
+88,Malaysia,PEN,Mangosteen,Summer
+89,Malaysia,PEN,Papaya,All Year
+90,Philippines,CEB,Mango,Summer
+91,Philippines,CEB,Coconut,All Year
+92,Philippines,CEB,Pineapple,All Year
+93,Japan,NGO,Peach,Summer
+94,Japan,NGO,Plum,Summer
+95,Japan,NGO,Apple,Autumn
+96,Bangladesh,DAC,Mango,Summer
+97,Bangladesh,DAC,Jackfruit,Summer
+98,Bangladesh,DAC,Pineapple,All Year
+99,Vietnam,HAN,Mango,Summer
+100,Vietnam,HAN,Longan,Summer
+101,Vietnam,HAN,Lychee,Summer
+102,Australia,SYD,Apple,Autumn
+103,Australia,SYD,Orange,Winter
+104,Australia,SYD,Kiwi,Winter
+105,Australia,MEL,Cherry,Spring
+106,Australia,MEL,Plum,Summer
+107,Australia,MEL,Apricot,Spring
+108,United States,ANC,Blueberry,Summer
+109,United States,ANC,Raspberry,Summer
+110,United States,ANC,Strawberry,Spring
+111,Japan,HND,Peach,Summer
+112,Japan,HND,Plum,Summer
+113,Japan,HND,Apple,Autumn
+114,Indonesia,CGK,Durian,Summer
+115,Indonesia,CGK,Mangosteen,Summer
+116,Indonesia,CGK,Papaya,All Year
+33,China,XMN,Longan,Summer
+34,China,XMN,Pomelo,Winter
+35,China,XMN,Lychee,Summer
+36,Taiwan,KHH,Pineapple,All Year
+37,Taiwan,KHH,Guava,Summer
+38,Taiwan,KHH,Mango,Summer
+39,China,CTU,Apple,Autumn
+40,China,CTU,Pear,Autumn
+41,China,CTU,Jujube,Autumn
+42,Vietnam,SGN,Mango,Summer
+43,Vietnam,SGN,Dragon Fruit,Summer
+44,Vietnam,SGN,Lychee,Summer
+45,Indonesia,WTB,Durian,Summer
+46,Indonesia,WTB,Mangosteen,Summer
+47,Indonesia,WTB,Papaya,All Year
+48,United States,ORD,Apple,Autumn
+49,United States,ORD,Blueberry,Summer
+50,United States,ORD,Cranberry,Autumn
+51,China,CKG,Strawberry,Spring
+52,China,CKG,Avocado,Summer
+53,China,CKG,Lemon,All Year

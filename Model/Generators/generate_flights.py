@@ -1,7 +1,8 @@
-from flight_info import FlightInfo
+from Flight import FlightInfo
 import requests
 import matplotlib.pyplot as plt
 from collections import Counter
+import csv
 
 # Define constants
 API_URL = "https://developers.cathaypacific.com/hackathon-apigw/cargo/flights/list"
@@ -110,6 +111,24 @@ def can_carry_cooltainers(iata_ac_type):
     return iata_ac_type in cooltainer_iatas or not iata_ac_type.startswith("7")
 
 
+# Convert flight list to csv
+def export_to_csv(flights):
+    with open("flight_data.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(
+            ["Flight Number", "Departure Date", "Arrival Date", "Via", "Duration"]
+        )
+        for flight in flights:
+            flight_info = [
+                flight.flight_number,
+                flight.departure_time,
+                flight.arrival_time,
+                flight.via_airports,
+                flight.duration,
+            ]
+            writer.writerow(flight_info)
+
+
 def main():
     # Flight list
     flights = []
@@ -122,7 +141,8 @@ def main():
         handle_response(response, flights)
 
     # Calculate top X most visited airports
-    get_stats(flights, 20)
+    # get_stats(flights, 20)
+    export_to_csv(flights)
 
 
 if __name__ == "__main__":
