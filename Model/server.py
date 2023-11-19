@@ -4,7 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
 import engine
 from engine import content_df
-from engine2 import content_df as content_df2
+from engine2 import content_df2
 
 app = FastAPI()
 
@@ -17,7 +17,13 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Call
+
+# Check what flights a given fruit is on
+@app.post("/fruitFlights")
+async def fruitFlights(request: Request):
+    body = await request.json()
+    fruit = body["Fruit"]
+    return content_df2[content_df2["Fruit"] == fruit]["FlightID"].values[0]
 
 
 # Call engine function (ie; engine/recommend/...)

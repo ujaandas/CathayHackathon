@@ -20,10 +20,10 @@ response = requests.post(
     json=params,
 )
 
-params2 = {"ID": "510812B00000C8DD", "FruitID": 83, "Rating": "5"}
+params2 = {"Fruit": "Pineapple"}
 
 response2 = requests.post(
-    f"http://localhost:8000/postRating",
+    f"http://localhost:8000/fruitFlights",
     json=params2,
 )
 
