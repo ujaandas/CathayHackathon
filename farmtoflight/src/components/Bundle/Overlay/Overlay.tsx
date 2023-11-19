@@ -31,7 +31,7 @@ function Overlay({ fruits, onClose }: OverlayProps) {
         </div>
 
         <div className="absolute bottom-3 right-3">
-          <Link to="/new-page">
+          <Link to="/checkout">
             <ChevronRight size={48} />
           </Link>
         </div>

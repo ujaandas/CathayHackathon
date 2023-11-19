@@ -1,19 +1,30 @@
 import React from "react";
 import Navbutton from "./Navbutton";
-import { Home } from "react-feather";
+import {
+  Home,
+  Compass,
+  Gift,
+  BatteryCharging,
+  Trello,
+  User,
+  Activity,
+  ShoppingBag,
+  Feather,
+  DollarSign,
+} from "react-feather";
 
 function Icons() {
   const navitems = [
-    { name: "Farm2Flight", href: "/", icon: <Home /> },
-    { name: "Cathay Shop", href: "/", icon: <Home /> },
-    { name: "Featured", href: "/", icon: <Home /> },
+    { name: "Farm2Flight", href: "/", icon: <Feather /> },
+    { name: "Cathay Shop", href: "/", icon: <ShoppingBag /> },
+    { name: "Featured", href: "/", icon: <Activity /> },
     { name: "Home", href: "/", icon: <Home /> },
-    { name: "Wellness", href: "/", icon: <Home /> },
-    { name: "Food & Wine", href: "/", icon: <Home /> },
-    { name: "Electronics", href: "/", icon: <Home /> },
-    { name: "Fashion & Beauty", href: "/", icon: <Home /> },
-    { name: "Travel", href: "/", icon: <Home /> },
-    { name: "Exclusives", href: "/", icon: <Home /> },
+    { name: "Wellness", href: "/", icon: <User /> },
+    { name: "Food & Wine", href: "/", icon: <Trello /> },
+    { name: "Electronics", href: "/", icon: <BatteryCharging /> },
+    { name: "Fashion & Beauty", href: "/", icon: <Gift /> },
+    { name: "Travel", href: "/", icon: <Compass /> },
+    { name: "Exclusives", href: "/", icon: <DollarSign /> },
   ];
 
   const navbuttons = navitems.map((navitem) => (

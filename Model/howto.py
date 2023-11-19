@@ -1,9 +1,8 @@
 import requests
-import json
 
-# This is the URL of the server running the Flask app
+# This is the URL of the server running the FastAPI app
 # Replace this with your own URL
-url = "http://localhost:5000/call"
+url = "http://localhost:8000/engine"
 
 # This is the name of the function you want to call
 function_name = "recommend"
@@ -18,10 +17,18 @@ params = {
 # Call the API
 response = requests.post(
     f"{url}/{function_name}",
-    data=json.dumps(params),
-    headers={"Content-Type": "application/json"},
+    json=params,
 )
 
+params2 = {"ID": "510812B00000C8DD", "FruitID": 83, "Rating": "5"}
+
+response2 = requests.post(
+    f"http://localhost:8000/postRating",
+    json=params2,
+)
+
+print(response2.json())
 
 # Print the response
-print(response.json())
+# print(response.json())
+# print(requests.get("http://localhost:8000/getUser").json())

@@ -1,7 +1,13 @@
-import React from "react";
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import React, { useEffect, useState } from "react";
 import Icons from "./Icons";
+import axios from "axios";
 
-function Navbar() {
+interface NavbarProps {
+  user: string;
+}
+
+function Navbar({ user }: NavbarProps) {
   return (
     <>
       <div className="flex-row bg-slate-200 px-20 py-2 justify-between items-center shadow-xl">
@@ -14,7 +20,10 @@ function Navbar() {
               height={40}
             />
           </div>
-          <div className="flex flex-row justify-end mt-1">
+          <div>
+            <h3 className="text-l font-bold">{`Welcome, ${user}!`}</h3>
+          </div>
+          <div className="flex flex-row justify-end">
             <h3 className="text-xl font-extrabold ml-4">Farm2Flight</h3>
           </div>
         </div>

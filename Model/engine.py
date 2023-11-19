@@ -7,7 +7,7 @@ from sklearn.metrics.pairwise import linear_kernel
 pd.options.mode.chained_assignment = None  # default='warn'
 
 # Load data
-data = pd.read_csv("./Data/passenger_fruits.csv")
+data = pd.read_csv("../Data/passenger_fruits.csv")
 print(data.head())
 
 content_df = data[["ID", "Name", "FruitID", "Fruit", "Score"]]
